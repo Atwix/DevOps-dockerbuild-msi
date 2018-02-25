@@ -5,4 +5,4 @@ The build includes a single image with the web-stack installed and configured (P
 Clone the repository and run `docker build .` command from the repository root directory. Once the build process is finished you can create a new container from the image.
 
 ## Configuration
-Nginx host configuration can be changed by editing `hosts/msi.conf` file. For changing Magento installation configuration, feel free to edit magento-install.sh file.
+Nginx host configuration can be changed by editing `hosts/msi.conf` file. For changing Magento installation configuration, feel free to edit `magento-install.sh` file.
