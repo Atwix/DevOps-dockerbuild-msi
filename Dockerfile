@@ -2,7 +2,7 @@
 # Magento 2 MSI container with PHP7.1 and Nginx
 #
 
-FROM php71_nginx_clean
+FROM atwixdotcom/php71_nginx_clean
 MAINTAINER Yaroslav Rogoza "y.rogoza@atwix.com"
 
 COPY ./init.sh /root
