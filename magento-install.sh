@@ -6,6 +6,7 @@
 mkdir /home/dev/sites/msi
 cd /home/dev/sites/msi
 git clone https://github.com/magento-engcom/msi.git .
+git checkout 2.3-develop
 composer install
 mysql -u root -e "create database msi"
 mysql -u root -e "create database msi_integration_tests"
